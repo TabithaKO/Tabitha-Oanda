@@ -9,10 +9,8 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Quattrocento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
     <script src="js/jquery-3.4.1.js"></script>
-    <script href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/bootbox.js"></script>
     <script src="js/scripts.js"></script>
@@ -20,83 +18,144 @@
 </head>
 
 <body>
-    
-        <nav class="nav navbar-expand-sm ">
-                <li class="nav-item active"><a class="nav-link" href="#information">Home</a></li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#information">About Me</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#information">YouTube</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#information">Projects</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#information">Tech for Education</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#information">Machine Learning</a>
-            </li>
-        </nav>
-        <div class="container-fluid">
-        <div class = "row row1 intro">
+    <div class="container container-fluid">
+        <header class="header">
+
+            <div class="row nav" id="home">
+                <a class="home" href="#">TABITHA OANDA</a>
+
+                <nav class="nav navbar-expand-sm ">
+                    <ul>
+                        <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#bio">About Me</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#machineLearning">Machine Learning</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#hm">Hands Movement</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#youtube">YouTube</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#contact">Contact Me</a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+            </div> <!-- / row -->
+
+        </header>
+
+
+        <div class="row row1 intro" id="bio">
             <div class="col-md-6 profilePic">
-               <img src="images/DSC_2920.JPG" >
+                <img src="images/profile0.JPG" class="img-fluid">
             </div>
             <div class="col-md-3 bio">
                 <p>Hi, I’m Tabitha!</p>
                 <p>I’m a young Kenyan visionary in tech.</p>
-                <p>I’m an undergraduate sophomore studying Computer Science at Boston University. I’m passionate about understanding and sharing the connection between tech and humans; we are tech and tech is us</p>
+                <p>I’m an undergraduate sophomore studying Computer Science at Boston University. I’m passionate about
+                    understanding and sharing the connection between tech and humans; we are tech and tech is us</p>
             </div>
             <div class="col-md-3 comp-pic">
 
             </div>
         </div>
-        <div class= "row row2 projects">
-            <div class="col-md-3" id = "python">
-                <img src="images/python" class="img-fluid">
+        <div class="row row2 projects" id="projects">
+            <div class="col-md-3" id="python">
+                <div class="row python-mid" id="py1">
+                    <img src="images/python.png" class="img-fluid">
+                </div>
+                <div class="row python-mid" id="py2">
+                    <p><span class="code-head">Python: Spring 2019</span></p>
+                    <p>In this introduction to Python class we focused on writing Python scripts for data analysis. The
+                        assignments mimicked real-world DNA sequencing data science projects.</p>
+                </div>
+
             </div>
             <div class="col-md-3" id="Java">
-                    <img src="images/java" class="img-fluid">
+                <div class="row java-mid" id="java1">
+                    <img src="images/java.png" class="img-fluid">
+                </div>
+                <div class="row java-mid" id="java2">
+                    <p><span class="code-head">Java: Fall 2019</span></p>
+                    <p>This class focused on java programming fundamentals and data structures. The assignments involved
+                        programming algorithms for the key data structures.
+                    </p>
+                </div>
+
+
             </div>
-            <div class="col-md-3" id ="Front End">
-                    <img src="images/html" class="img-fluid">
-                    <img src="images/css" class="img-fluid">
-                    <img src="images/js" class="img-fluid">
+            <div class="col-md-3" id="Front End">
+                <div class="row mid-row">
+                    <div class="col-md-3">
+                        <img src="images/html.png" class="img-fluid">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/css.png" class="img-fluid">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/js.png" class="img-fluid">
+                    </div>
+
+                </div>
+
+                <div class="row mid-row-3">
+                    <p>This 5 week bootcamp involved designing websites for different projects.
+                    </p>
+                </div>
+
             </div>
 
         </div>
-        <div class= "row row3 machineLearning">
+        <div class="row row3 machineLearning" id="machineLearning">
             <div class="col-md-5 mosaic">
-                
+
             </div>
             <div class="col-md-5 mlBio">
-    
-            </div>
-        </div>
-        <div class = "row row4 handsMovement">
-            <div class= "col-md-5" id="sect1">
-                
-            </div>
-            <div class= "col-md-5" id="sect2">
-
-            </div>
-
-        </div>
-        <div class= "row row5 youTube">
-            <div class = "col-md-3" id="yt1">
-                
-            </div>
-            <div class = "col-md-5" id = "yt-embed">
-
-            </div>
-            <div class = "col-md-3" id ="yt2">
 
             </div>
         </div>
+        <div class="row row4 handsMovement" id="hm">
+            <div class="col-md-5" id="sect1">
 
-        
+            </div>
+            <div class="col-md-5" id="sect2">
+
+            </div>
+
+        </div>
+        <div class="row row5 youTube" id="youtube">
+            <div class="col-md-3" id="yt1">
+
+            </div>
+            <div class="col-md-5" id="yt-embed">
+
+            </div>
+            <div class="col-md-3" id="yt2">
+
+            </div>
+        </div>
+        <div class="row row6 contact" id="contact">
+            <div class="col-md-3 Email">
+
+            </div>
+            <div class="col-md-3 Instagram">
+
+            </div>
+            <div class="col-md-3 Twitter">
+
+            </div>
+        </div>
+
+
     </div>
 
 
