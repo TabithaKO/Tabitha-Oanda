@@ -1,135 +1,245 @@
-/************NAV BAR*****************/
+@import url('bootstrap.css');
+@import url('fonts.css');
 
-.header {
-    position: fixed;
-    top: 0px;
-    max-height: 70px;
-    z-index: 999;
-    width: 100%;
-    padding-top: 17px;
-    background: none;
-    overflow: hidden;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    opacity: 0;
-    top: -100px;
-    padding-bottom: 6px;
-    font-family: 'Ibarra Real Nova', serif;
-  }
 
-  @media only screen and (max-width: 766px) {
-    .header {
-      padding-top: 25px;
-    }
-  }
-  
-  .open-nav {
-    max-height: 400px !important;
-  }
-  .open-nav .mobile-toggle {
-    transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);
-  }
-  
-  .sticky {
-    background-color: rgba(255, 255, 255, 0.93);
-    opacity: 1;
-    top: 0px;
-    border-bottom: 1px solid gainsboro;
-  }
-  
-  .home {
-    width: 50px;
-    font-size: 30px;
-    color: #ffffff;
-    text-transform: uppercase;
-    float: left;
-    margin-top: 0;
-    line-height: 1;
-    margin-bottom: 10px;
-    margin-right: 15px;
-
-  }
-  @media only screen and (max-width: 766px) {
-    .home {
-      float: none;
-    }
-  }
-  
-  /* nav {
-    float: right;
-    width: 60%;
-  } */
-  @media only screen and (max-width: 766px) {
-    nav {
-      width: 100%;
-    }
-  }
-  nav ul {
-    list-style: none;
-    overflow: hidden;
-    text-align: right;
-    float: right;
-  }
-  @media only screen and (max-width: 766px) {
-    nav ul {
-      padding-top: 10px;
-      margin-bottom: 22px;
-      float: left;
-      text-align: center;
-      width: 100%;
-    }
-  }
-  nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-    line-height: 1.5;
-  }
-  @media only screen and (max-width: 766px) {
-    nav ul li {
-      width: 100%;
-      padding: 7px 0;
-      display: inline-block;
-      margin: 0;
-    }
-  }
-  nav ul a {
-    color: #888888;
-    display: inline-block;
-    text-transform: uppercase;
-    font-size: 12px;
-  }
-  
-  .row {
-    width: 100%;
-    max-width: 940px;
-    margin: 0 auto;
-    position: relative;
-    padding: 0 2%;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
 /***********THE MAIN BODY**************/
-.container{
+.container-fluid{
     position: relative;
     font-family: 'Ibarra Real Nova', serif;
 }
+.jumbotron{
+    opacity: 0.7;
+}
+/************TOP BAR*********************/
 
+.firstlines{
+    margin-top: 30px;
+  }
+  #l1{
+    font-size: 50px;
+    margin-top: 15px;
+  }
+  #l2{
+    font-size: 50px;
+    margin-top: 15px;
+  }
+  #l3{
+    font-size: 25px;
+    font-style: italic;
+  }
+ 
 /*************ROW 1 -- INTRO -- ******************/
+#biopic{
+   width:60%;
+   height:60%;
+}
+.bioPic1{
+    width: 200px;
+    height: 400px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: black;
+}
 
+about{
+    margin-top: 20px;
+    padding-top: 40px;
+    text-align: center;
+}
+.aboutbody{
+    font-size:18px;
+}
+.name{
+    font-size: 40px;
+}
+
+vision{
+    text-align: center;
+    font-style: italic;
+    font-size: 17px;
+    
+}
 
 /*************ROW 2 -- PROJECTS -- *******************/
-
+h4{
+    text-align: center;
+  }
+#projects{
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    margin-top: 10px;
+    padding: 15px;  
+  }
+  .projImage{
+      height: 60% ;
+      width: 60%;
+  }
+  .py{
+      padding-top: 45px;
+      padding-bottom: 10px;
+  }
+  #python{
+      padding-top:40px;
+  }
+  .python{
+      text-align: center;
+  }
+  #java{
+      padding-bottom: 20px;
+  }
+  .javatitle{
+      padding-top: 20px;
+  }
+  .java{
+      text-align: center;
+  }
+  .col{
+    text-align: center;
+  }
+  .project{
+      font-size: 25px;
+  }
+  .pythondef{
+      font-size:18px;
+  }
+  .javadef{
+      font-size:18px;
+  }
+  .frontend{
+      text-align: center;
+  }
+  .frontenddef{
+      font-size:18px;
+  }
 
 /*************ROW 3 -- MACHINE LEARNING -- *******************/
 
+h4{
+    text-align: center;
+    margin: 20px;
+  }
+  .col{
+    text-align: center;
+  }
+machinelearning{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+#ml-fairness-bio2{
+    text-align: center;
+    list-style-position: inside;
+}
+.fairness{
+    margin-bottom:10px;
+    padding-bottom:20px;
+}
+.mlhead{
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    margin-top: 10px;
+    padding: 15px;
+    padding-bottom: 20px;
+    
+}
+.learning{
+    padding: 15px;
+    padding-top: 25px;
+}
+.fairness-head{
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    margin-top: 10px;
+    padding: 15px;
+    
+}
 
 /*************ROW 4 -- HANDS MOVEMENT -- *******************/
+.hmpic1{
+    padding:60px;
+    margin: 10px;
+    height: 80px;
+}
+.hmpic2{
+    padding:60px;
+    margin: 10px;
+    height: 80px; 
+}
+.hmpic3{
+    padding:60px;
+    margin: 10px;
+    height: 80px;   
+}
+.hmhead{
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    margin-top: 10px;
+    padding: 15px;
+    
+}
+#hmbio{
+    font-size: 18px;
+}
 
+.hmtext{
+    font-size: 30px;
+    font-style: italic;
+    color: red;
+}
+.print1{
+    background-color: black;
+    
+}
+.print3{
+    background-color:	 #eee;
+
+}
+.row handsmovement{
+    height: 400px;
+    width: 100%;
+}
 
 /*************ROW 5 -- YOUTUBE -- *******************/
-
-
+img.portfolio{
+    margin: 10px;
+  }
+#youtube{
+    margin:10px;
+    padding: 15px;
+}
+.ytparagraph{
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+  .portfolio{
+    display: inline-block;
+    position: relative;
+  }
 /*************ROW 6 -- CONTACT -- *******************/
+contact{
+    padding:15px;
+}
+.cont-head{
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    margin-top: 10px;
+    padding: 15px; 
+}
+.social-media{
+    margin-top: 20px;
+    width:50%;
+    height: 50%;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .bottom{
+    text-align: center;
+    font-size: 20px;
+  }
+  

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
+    <title>Tabitha Oanda</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,186 +13,309 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
     <script src="js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/bootbox.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Tabitha Oanda</title>
 </head>
 
 <body>
-    <div class="container container-fluid">
-        <header class="header">
-
-            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#bio">About Me</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#machineLearning">Machine Learning</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#hm">Hands Movement</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#youtube">YouTube</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#contact">Contact Me</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-
-        </header>
-
-
-        <div class="row row1 intro" id="bio">
-            <div class="col-md-6 profilePic">
-                <img src="images/profile0.JPG" class="img-fluid">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center beginning">
+            <div class="col-md-3 text-center">
+                <header>
+                    <div class="firstlines">
+                        <p id="l1">TABITHA</p>
+                        <p id="l2">OANDA</p>
+                        <p id="l3">Welcome to my learning journey!</p>
+                    </div>
+                </header>
             </div>
-            <div class="col-md-3 bio">
-                <p>Hi, I’m Tabitha!</p>
-                <p>I’m a young Kenyan visionary in tech.</p>
-                <p>I’m an undergraduate sophomore studying Computer Science at Boston University. I’m passionate about
-                    understanding and sharing the connection between tech and humans; we are tech and tech is us</p>
+            <div class="col-md-5 text-center">
+                <img src="images/profile0.jpg" class="img-fluid" id="biopic" alt="studio-profile">
             </div>
-            <div class="col-md-3 comp-pic">
-
+            <div class="col-md-3 text-center">
+                <about>
+                    <h2><strong>ABOUT ME</strong></h2>
+                    <div class="aboutbody">
+                        <p>I’m a young Kenyan visionary in tech.</p>
+                        <p>I’m an undergraduate sophomore studying Computer Science at Boston University.</p>
+                        <p>I’m passionate about
+                            understanding and sharing the connection between tech and humans; we are tech and tech is
+                            us.
+                        </p>
+                    </div>
+                </about>
             </div>
         </div>
-        <div class="row row2 projects" id="projects">
-            <div class="col-md-3" id="python">
-                <div class="row python-mid" id="py1">
-                    <img src="images/python.png" class="img-fluid">
-                </div>
-                <div class="row python-mid" id="py2">
-                    <p><span class="code-head">Python: Spring 2019</span></p>
-                    <p>In this introduction to Python class we focused on writing Python scripts for data analysis. The
-                        assignments mimicked real-world DNA sequencing data science projects.</p>
-                </div>
 
+        <div class="row justify-content-center align-items-center vision jumbotron">
+            <div class="col-md-7 vision ">
+                <vision>
+                    <h2><strong>MY VISION</strong></h2>
+                    <p>As a young African female in tech, I believe in working towards a more educated and innovative
+                        Africa.</p>
+                    <p>I want to be a part of the team that ensures that the future generation of African leaders in
+                        various
+                        industires have the skills and resources they need to revolutionize the continent for the
+                        better.
+                    </p>
+                    <p>The journey of a thousand miles begins with a ("Hello World!);</p>
+                </vision>
             </div>
-            <div class="col-md-3" id="Java">
-                <div class="row java-mid" id="java1">
-                    <img src="images/java.png" class="img-fluid">
+        </div>
+        <div class="row justify-content-center align-items-center projects" id="projects">
+            <h4><strong>PROJECTS</strong></h4>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-3 project jumbotron py">
+                <img src="images/python.png" class="img-fluid projImage" alt="python icon" id="python">
+                <p><span class="python"><strong>PYTHON</strong></span></p>
+                <p><span class="python"><strong>Spring 2019</strong></span></p>
+                <p><span class="pythondef">In this introduction to Python class we focused on writing Python scripts for
+                        data analysis. The
+                        assignments mimicked real-world DNA sequencing data science projects.</span></p>
+            </div>
+            <div class="col-md-3 project">
+                <img src="images/java.png" class="img-fluid projImage" alt="javaicon" id="java">
+                <p><span class="java title"><strong>JAVA</strong></span></p>
+                <p><span class="java"><strong>Fall 2019</strong></span></p>
+                <p><span class="javadef">This class focused on java programming fundamentals and data structures. The
+                        assignments involved
+                        programming algorithms for the key data structures.</span></p>
+            </div>
+            <div class="col-md-3 project jumbotron">
+                <img src="images/coder-head.png" class="img-fluid projImage" alt="coder-head icon" id="frontend">
+                <p><span class="frontend"><strong>FRONT-END DEVELOPMENT</strong></span></p>
+                <p><span class="frontend"><strong>Summer 2019</strong></span></p>
+                <p><span class="frontenddef">This 5 week bootcamp involved designing and developing websites</span></p>
+                <p><span class="frontenddef">I worked with HTML5, Javascript(JQuery), and CSS(Bootstrap)</span></p>
+            </div>
+        </div>
+        <machinelearning>
+            <div class="row row3 justify-content-center align-items-center machineLearning" id="machineLearning">
+                <h4><span class="mlhead"><strong>MACHINE LEARNING</strong></span>
+                </h4>
+                <div class="row row1 justify-content-center align-items-center learning">
+                    <div class="col-md-5" id="ml-learn-pic">
+                        <img src="images/matt-artz-mn9urGl7vIA-unsplash.jpg" class="img-fluid">
+                        <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+                            href="https://unsplash.com/@mattartz?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+                            target="_blank" rel="noopener noreferrer"
+                            title="Download free do whatever you want high-resolution photos from Matt Artz"><span
+                                style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+                                    style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
+                                    viewBox="0 0 32 32">
+                                    <title>unsplash-logo</title>
+                                    <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+                                </svg></span><span style="display:inline-block;padding:2px 3px">Matt Artz</span></a>
+
+                    </div>
+                    <div class="col-md-5" id="ml-learn-bio">
+                        <p>I decided to learn machine learning because I wanted to understand how computers think and
+                            how
+                            they help
+                            us think more clearly. I got this idea after taking on a writing class in Fall 2019 where I
+                            got
+                            to
+                            choose my own topic, so I did! I choose ‘Unfairness and Bias in Machine Learning’. </p>
+                        <p>I began
+                            to
+                            read more
+                            scholarly articles written by machine learning experts and took up an online course. This
+                            section of my
+                            portfolio is dedicated to my learning journey.</p>
+                    </div>
                 </div>
-                <div class="row java-mid" id="java2">
-                    <p><span class="code-head">Java: Fall 2019</span></p>
-                    <p>This class focused on java programming fundamentals and data structures. The assignments involved
-                        programming algorithms for the key data structures.
+                <h4><span class="row justify-content-center align-items-center fairness-head fairness"><strong>FAIRNESS
+                            & BIAS IN ML</strong></span></h4>
+                <div class="row row1 justify-content-center align-items-center fairness">
+                    <div class="col-md-5" id="ml-fairness-pic1">
+                        <img src="images/kvistholt-photography-oZPwn40zCK4-unsplash.jpg" class="img-fluid">
+                        <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+                            href="https://unsplash.com/@freeche?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+                            target="_blank" rel="noopener noreferrer"
+                            title="Download free do whatever you want high-resolution photos from Kvistholt Photography"><span
+                                style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+                                    style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
+                                    viewBox="0 0 32 32">
+                                    <title>unsplash-logo</title>
+                                    <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+                                </svg></span><span style="display:inline-block;padding:2px 3px">Kvistholt
+                                Photography</span></a>
+                    </div>
+                    <div class="col-md-5 text-center" id="ml-fairness-bio">
+                        <p>With Machine Learning algorithms in use in so many industries to optimize decision making, we
+                            need to ensure that these decisions not only scale profit for business but act objectively.
+                        </p>
+                        <p>That task is easier said than done because fairness is a principle hardly actualized in our
+                            current society because of the wide range of perceptions of fairness. Everyone has their own
+                            perspective on the issue.</p>
+                    </div>
+                </div>
+                <div class="row row2 justify-content-center align-items-center fairness">
+                    <div class="col-md-5 text-center" id="ml-fairness-bio2">
+                        <p>In the field of fairness we're asking the questions:</p>
+                        <ul>
+                            <li>How do we define fairness universally?</li>
+                            <li>How do we implement fairness measures?</li>
+                            <li>How do we evaulate model/ algorithmic fairness?</li>
+                            <li>What policies guide the implementation & evaluation process?</li>
+                            <li>How do protect everyone's best interests in the process?</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5" id="ml-fairness-pic2">
+                        <img src="images/brett-jordan-bZtxfALS2DA-unsplash.jpg" class="img-fluid">
+                        <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+                            href="https://unsplash.com/@brett_jordan?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+                            target="_blank" rel="noopener noreferrer"
+                            title="Download free do whatever you want high-resolution photos from Brett Jordan"><span
+                                style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+                                    style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
+                                    viewBox="0 0 32 32">
+                                    <title>unsplash-logo</title>
+                                    <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+                                </svg></span><span style="display:inline-block;padding:2px 3px">Brett Jordan</span></a>
+                    </div>
+                </div>
+            </div>
+
+        </machinelearning>
+        <handsmovement>
+            <h4><span class=" row justify-content-center align-items-center hmhead">HANDS MOVEMENT</span></h4>
+            <div class="row justify-content-center align-items-center handsmovement">
+                <div class="col-md-4 text-center print1" id="hmpic">
+                    <img src="images/hmp1.png" class="hmpic1 img-fluid" alt="white handprint">
+                </div>
+                <div class="col-md-4 text-center" id="hmbio">
+                    <p>Hands Movement was my way of contributing to the vision of a more educated and stronger Kenya and
+                        Africa as a whole. The movement’s goal is to improve the education experience for children in
+                        marginalized areas in Kenya.
                     </p>
                 </div>
 
-
+                <div class="col-md-4 text-center print2" id="hmpic">
+                    <img src="images/hmp3.png" class="img-fluid hmpic2" alt="black handprint">
+                </div>
             </div>
-            <div class="col-md-3" id="Front End">
-                <div class="row mid-row">
-                    <div class="col-md-3">
-                        <img src="images/html.png" class="img-fluid" alt="html">
+            <div class="row justify-content-center align-items-center handsmovement">
+                <div class="col-md-4 text-center" id="hmpic">
+                    <p><span class="hmtext">"Building a better African future...</span> </p>
+                </div>
+                <div class="col-md-4 text-center print3">
+                    <img src="images/hmp2.png" class="img-fluid hmpic3" alt="red handprint">
+                </div>
+                <div class="col-md-4 text-center">
+                    <p><span class="hmtext"> ...one scholar at a time"</span></p>
+                </div>
+            </div>
+        </handsmovement>
+
+        <interstem>
+            <div class="row justify-content-center align-items-center" id="youtube">
+
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-6 text-center ytlogo">
+                            <a href="https://www.youtube.com/channel/UC-qYS_P9NvSRoWYUsV2FmYQ">
+                                <img src="images/interstem2.png" class="img-fluid">
+                            </a>
                     </div>
-                    <div class="col-md-3">
-                        <img src="images/css.png" class="img-fluid" alt="css">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images/js.png" class="img-fluid" alt="js">
+                    <div class="col-md-6 text-center ytparagraph jumbotron">
+                        <p>interSTEM is a YouTube channel through which I share various perspectives from students,
+                            professors,
+                            and professionals in STEM. </p>
+                        <p>It started when I transitioned from a major in the social
+                            sciences to one
+                            in STEM. I knew I wanted to be a STEM major because of my curious and inquisitive
+                            personality. The
+                            only challenge was that I had no idea whether I wanted to do Science, Technology,
+                            Engineering, or
+                            Math.</p>
+                        <p>I then decided to interview people in these various fields and gain their insight in
+                            order to
+                            make a personal decision.</p>
                     </div>
 
                 </div>
+                <div class="row justify-content-center align-items-center" id="container1">
+                    <div class=" col-md-3 ">
+                        <img src="images/STEM1.png" alt="portfolio icon" class="portfolio img-fluid image1">
+                        <div class="text text1">Scholarships</div>
+                    </div>
+                    <div class=" col-md-3">
+                        <img src="images/STEM2.png" alt="portfolio icon" class="portfolio img-fluid image2">
+                        <div class="text text2">DEV Stories</div>
+                    </div>
+                    <div class=" col-md-3 ">
+                        <img src="images/STEM3.png" alt="portfolio icon" class="portfolio img-fluid image3">
+                        <div class="text text3">DEV Stories</div>
+                    </div>
 
-                <div class="row mid-row-3">
-                    <p>This 5 week bootcamp involved designing websites for different projects.
-                    </p>
+                </div>
+                <div class="row justify-content-center align-items-center" id="container2">
+                    <div class=" col-md-3  ">
+                        <img src="images/STEM4.png" alt="portfolio icon" class="portfolio img-fluid image4">
+                        <div class="text text4">DEV Stories</div>
+                    </div>
+                    <div class=" col-md-3">
+                        <img src="images/STEM5.png" alt="portfolio icon" class="portfolio img-fluid image5">
+                        <div class="text text5">Astronomy in Africa</div>
+                    </div>
+                    <div class=" col-md-3">
+                        <img src="images/STEM6.png" alt="portfolio icon" class="portfolio img-fluid image6">
+                        <div class="text text6">DEV Stories</div>
+                    </div>
+                </div>
+            </div>
+        </interstem>
+        <contact>
+            <div class="contact">
+                <div class="row justify-content-center align-items-center cont-head">
+                    <h4>CONTACT ME:</h4>
                 </div>
 
+        </contact>
+        <div class="row" id="contact">
+            <div class="col-md-2 social-media">
+                <a href="https://www.youtube.com/channel/UC-qYS_P9NvSRoWYUsV2FmYQ">
+                    <img src="images/youtube.png" class="img-fluid social-media" alt="youtube icon">
+                </a>
             </div>
-
-        </div>
-        <div class="row row3 machineLearning" id="machineLearning">
-            <div class="col-md-5 mosaic">
-                <img src="images/wesley-tingey-FNhyekndnSM-unsplash.jpg" alt="keyboard">
+            <div class="col-md-2 social-media">
+                <a href="mailto:TabithaKO@gmail.com">
+                    <img src="images/gmail.png" class="img-fluid social-media" href="" alt="gmail icon">
+                </a>
             </div>
-            <div class="col-md-5 mlBio">
-
+            <div class="col-md-2 social-media">
+                <a href="https://twitter.com/OandaTabitha">
+                    <img src="images/twitter.png" class="img-fluid social-media" alt="twitter icon">
+                </a>
             </div>
-        </div>
-        <div class="row row4 handsMovement" id="hm">
-            <div class="col-md-5" id="hmbio">
-                <p>Hands Movement was my way of contributing to the vision of a more educated and stronger Kenya and
-                    Africa as a whole. The movement’s goal is to improve the education experience for children in
-                    marginalized areas in Kenya.
-                </p>
+            <div class="col-md-2 social-media">
+                <a href="https://www.linkedin.com/in/tabithaoanda/">
+                    <img src="images/linked-in-logo.png" class="img-fluid social-media" alt="linked-in icon">
+                </a>
             </div>
-            <div class="col-md-5" id="hmpic">
-                <img src="images/hm1.jpg" alt="hm1">
-                <img src="images/hm2.jpg" alt="hm2">
-                <img src="images/hm3.jpg" alt="hm3">
-                <img src="images/hm4.jpg" alt="hm4">
-                <img src="images/hm5.jpg" alt="hm5">
-                <img src="images/hm6.jpg" alt="hm6">
-                <img src="images/hm7.jpg" alt="hm7">
-                <img src="images/hm8.jpg" alt="hm8">
+            <div class="col-md-2 social-media">
+                <a href="https://www.instagram.com/tabitha_oanda/">
+                    <img src="images/instagram.png" class="img-fluid social-media" alt="instagram icon">
+                </a>
             </div>
-
-        </div>
-        <div class="row row5 youTube" id="youtube">
-            <div class="col-md-3" id="yt1">
-                <p>interSTEM is a YouTube channel through which I share various perspectives from students, professors,
-                    and professionals in STEM. It started when I transitioned from a major in the social sciences to one
-                    in STEM. I knew I wanted to be a STEM major because of my curious and inquisitive personality. The
-                    only challenge was that I had no idea whether I wanted to do Science, Technology, Engineering, or
-                    Math. I then decided to interview people in these various fields and gain their insight in order to
-                    make a personal decision.</p>
-            </div>
-            <div class="col-md-5" id="yt-embed">
-                <img src="images/monica-sauro-Z3vq1JvQZ-Y-unsplash.jpg" alt="youtube laptop">
-                <img src="images/STEM1.png" alt="STEM1">
-                <img src="images/STEM2.png" alt="STEM2">
-                <img src="images/STEM3.png" alt="STEM3">
-                <img src="images/STEM4.png" alt="STEM4">
-                <img src="images/STEM5.png" alt="STEM5">
-                <img src="images/STEM6.png" alt="STEM6">
-            </div>
-            <div class="col-md-3" id="yt2">
-                <p>The turning point came when I spoke to a health informatics expert who pointed out the importance of
-                    Math, Life Sciences, and Computer Science in solving some of the more nuanced and modern challenges
-                    in the healthcare sector. I decided then that I would be a Mathematician! After a semester of
-                    Calculus II and an ‘Intro to Python’ class, I came to the conclusion that although Math is
-                    fundamental, Computer Science allows me to implement these mathematical concepts more practically.
-                    The code allowed me to bring Math to life and problem-solve in creative ways.
-                </p>
-            </div>
-        </div>
-        <div class="row row6 contact" id="contact">
-            <div class="col-md-3 Email">
-                <img src="images/gmail.png" alt="email">
-                <p>EMAIL</p>
-            </div>
-            <div class="col-md-3 Instagram">
-                <img src="images/instagram.png" alt="instagram">
-                <p>INSTAGRAM</p>
-            </div>
-            <div class="col-md-3 Twitter">
-                <img src="images/twitter.png" alt="twitter">
-                <p>TWITTER</p>
-            </div>
-            <div class="col-md-3 github">
-                <img src="images/github.png" alt="github">
-                <p>GITHUB</p>
+            <div class="col-md-2 social-media">
+                <a href="https://github.com/TabithaKO">
+                    <img src="images/github.png" class="img-fluid social-media" alt="=github icon">
+                </a>
             </div>
         </div>
 
-
+        <div class="bottom">
+            <p>TABITHA OANDA</p>
+            <p>&#169 2020</p>
+        </div>
     </div>
-
 
 
 </body>
