@@ -3,7 +3,9 @@ Tabitha Oanda's Landing Page
 
 #### Brief description of application, date of current version
 This is my landing page to guide my peers, collaborators and potential employers on the projects I'm working on.
-{Date of current version 19/1/2019}
+
+##Current Version
+19/1/2019
 
 #### Contributors
 Tabitha Oanda
@@ -15,8 +17,8 @@ This landing page has:
 - My Vision: A summary of what I aspire to achieve
 - My Projects that link to GitHub
 - A summary of my non-profit Hands Movement
-- A summary of my machine learning journey and blog
-- A summary of my STEM project interSTEM
+- A summary of my machine learning journey and link to my Medium blog
+- A summary of my STEM project: interSTEM
 
 ## UI Images
 ![Screenshot 2020-01-19 at 19 44 19](https://user-images.githubusercontent.com/50864401/72691577-0ba0c580-3aec-11ea-9452-b39ab1eac37f.png)
