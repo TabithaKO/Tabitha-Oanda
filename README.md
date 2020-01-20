@@ -4,7 +4,7 @@ Tabitha Oanda's Landing Page
 #### Brief description of application, date of current version
 This is my landing page to guide my peers, collaborators and potential employers on the projects I'm working on.
 
-##Current Version
+## Current Version
 19/1/2019
 
 #### Contributors
