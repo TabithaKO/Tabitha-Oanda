@@ -32,6 +32,10 @@ This landing page has:
 
 No known bugs currently but potential bugs are welcome to be reported.
 
+## Future Additions
+
+I plan to add some JavaScript effects in the near future
+
 ## Technologies Used
 
 -   HTML5
